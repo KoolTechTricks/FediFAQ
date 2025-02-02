@@ -1,0 +1,8 @@
+baseURL = 'https://example.org/'
+languageCode = 'ru-ru'
+title = 'FediFAQ'
+theme = 'hugo-book'
+
+[params]
+BookTheme = 'auto'
+BookSection = '*'
