@@ -10,20 +10,8 @@
 
 ## Внести свой вклад
 
-Вы можете [создать отчёт], если хотите сообщить о проблеме или предложить
-улучшения.
-
-Мы будем рады, если сможете напрямую внести правки или написать страницы. В
-таком случае вам нужно [сделать форк репозитория], внести правки и предложить
-принять изменения ([Pull Request]).
-
-Не знаете, что можно сделать для этого проекта? Посмотрите [открытые отчёты].
-Посетите [FediTips], переведите какую-нибудь страницу оттуда.
-
-[создать отчёт]: https://github.com/KoolTechTricks/FediFAQ/issues/new
-[сделать форк репозитория]: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo
-[Pull Request]: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork
-[открытые отчёты]: https://github.com/KoolTechTricks/FediFAQ/issues
+Вы можете внести свой вклад, чтобы ускорить развитие этого ресурса. Смотрите
+файл [CONTRIBUTING](CONTRIBUTING.md) для подробной информации.
 
 ## Локальный запуск
 
@@ -44,30 +32,6 @@ hugo server -D -O  # -O, чтобы открыть в браузере
 
 Когда сервер Hugo запущен, вы можете открыть страницу `http://localhost:1313` в
 браузере. Содержимое будет обновляться автоматически по мере редактирования.
-
-Создание страниц:
-
-```sh
-hugo new content section/page.md
-```
-
-Это сгенерирует страницу со следующим содержимым:
-
-```yaml
-title: Page
-weight: 0
-draft: true
-```
-
-Замените `title` на заголовок страницы (отображается в названии вкладки
-браузера) и `weight` на порядок в левой колонке раздела. Если страница готова к
-публикации, уберите строку `draft`.
-
-Если вы хотите создать новый раздел, используйте эту команду:
-
-```sh
-hugo new content section/_index.md
-```
 
 ## Лицензия
 
