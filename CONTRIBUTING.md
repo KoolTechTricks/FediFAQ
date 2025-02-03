@@ -15,6 +15,13 @@
 [Pull Request]: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork
 [открытые отчёты]: https://github.com/KoolTechTricks/FediFAQ/issues
 
+## Структура репозитория
+
+- `/archetypes` — шаблоны страниц при их создании через терминал (см. [Создание страниц](#создание-страниц))
+- `/content` — содержимое страниц в формате Markdown
+    - `/content/assets` — изображения
+- `/layouts` — шаблоны HTML при сборке сайта (см. [документацию темы Hugo Book](https://github.com/alex-shpak/hugo-book#partials))
+
 ## Создание страниц
 
 После того как [сайт запущен локально](README.md#локальный-запуск), вы можете
