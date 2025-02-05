@@ -1,6 +1,6 @@
 baseURL = 'https://fedifaq.info/'
 languageCode = 'ru-ru'
-title = 'FediFAQ'
+title = 'FediFAQ БЕТА'
 theme = 'hugo-book'
 
 [params]
