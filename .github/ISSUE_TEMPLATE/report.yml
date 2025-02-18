@@ -46,5 +46,5 @@ body:
       description: |
        Напишите, о чём ваш отчёт. Что вы хотите изменить? С какой целью? Какие
        у вас идеи? Как должно выглядеть в итоге?
-      validations:
-        required: true
+    validations:
+      required: true
