@@ -1,0 +1,50 @@
+name: Сообщить о проблеме или предложить изменение
+description: |
+  Это поможет нам исправить недочёты и улучшить качество содержимого на сайте.
+labels: ["triage"]
+body:
+  - type: markdown
+    attributes:
+      value: Спасибо, что нашли время создать этот отчёт!
+  - type: dropdown
+    id: king
+    attributes:
+      label: Это отчёт о проблеме или предложение об изменении?
+      multiple: true
+      options:
+        - Проблема (что-то выглядит не так, как должно быть)
+        - Предложение об изменении (можно что-то добавить или обновить)
+        - Другое
+    validations:
+      required: true
+  - type: textarea
+    id: pages
+    attributes:
+      label: Какая(-ие) страница(-ы) связана(-ы) с этим отчётом?
+      description: Укажите ссылку(-и) на связанную(-ые) страницу(-ы).
+      placeholder: |
+        https://fedifaq.info/example/page-1
+        https://fedifaq.info/example/page-2
+        ...
+    validations:
+      required: true
+  - type: dropdown
+    id: context
+    attributes:
+      label: Этот отчёт связан с содержимым (текстом) или структурой сайта?
+      multiple: true
+      options:
+        - Содержимое (текст)
+        - Структура/элементы/внешний вид сайта
+        - Другое
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Отчёт
+      description: |
+       Напишите, о чём ваш отчёт. Что вы хотите изменить? С какой целью? Какие
+       у вас идеи? Как должно выглядеть в итоге?
+      validations:
+        required: true
