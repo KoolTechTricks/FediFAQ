@@ -10,7 +10,7 @@
 Не знаете, что можно сделать для этого проекта? Посмотрите [открытые отчёты].
 Посетите [FediTips], переведите какую-нибудь страницу оттуда.
 
-[создать отчёт]: https://github.com/KoolTechTricks/FediFAQ/issues/new
+[создать отчёт]: https://github.com/KoolTechTricks/FediFAQ/issues/new/choose
 [сделать форк репозитория]: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo
 [Pull Request]: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork
 [открытые отчёты]: https://github.com/KoolTechTricks/FediFAQ/issues
