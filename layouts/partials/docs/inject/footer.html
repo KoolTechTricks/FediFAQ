@@ -1,7 +1,19 @@
+{{ with .GitInfo }}
+<p>
+    <a href="{{ $.Site.Params.repo }}/blob/main/content/{{ $.File.Path }}" target="_blank">Эта страница</a>
+    последний раз была отредактирована
+    <a href="{{ $.Site.Params.repo }}/commit/{{ .Hash }}" target="_blank">{{ .CommitDate | time.Format ":date_long" }}</a>
+</p>
+{{ end }}
 <p>
     FediFAQ является переводом и адаптацией англоязычного ресурса
     <a href="https://fedi.tips" target="_blank">FediTips</a>.
-    Лицензия: <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank">CC BY-SA 4.0</a>
+    Лицензия: <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank">CC BY-SA 4.0</a>.
+</p>
+<p>
+    Вы можете <a href="{{ .Site.Params.repo }}/blob/main/CONTRIBUTING.md" target="_blank">внести свой вклад</a>
+    в FediFAQ, если хорошо разбираетесь в теме, а также
+    <a href="{{ .Site.Params.repo }}/issues/new" target="_blank">сообщить о проблеме или предложить изменения</a>.
 </p>
 <p>
     <a href="https://github.com/KoolTechTricks/FediFAQ" target="_blank">Исходный код</a> ·

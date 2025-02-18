@@ -1,8 +1,13 @@
 baseURL = 'https://fedifaq.info/'
 languageCode = 'ru-ru'
+defaultContentLanguage = 'ru-ru' # Without this line, date format will be en_US
 title = 'FediFAQ БЕТА'
 theme = 'hugo-book'
+
+enableGitInfo = true
 
 [params]
 BookTheme = 'auto'
 BookSection = '*'
+
+repo = 'https://github.com/KoolTechTricks/FediFAQ'
