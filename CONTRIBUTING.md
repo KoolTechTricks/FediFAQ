@@ -10,10 +10,15 @@
 Не знаете, что можно сделать для этого проекта? Посмотрите [открытые отчёты].
 Посетите [FediTips], переведите какую-нибудь страницу оттуда.
 
+> [!tip]
+> Рекомендуется [запустить сайт локально] для проверки корректности отображения
+сайта после ваших правок.
+
 [создать отчёт]: https://github.com/KoolTechTricks/FediFAQ/issues/new/choose
 [сделать форк репозитория]: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo
 [Pull Request]: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork
 [открытые отчёты]: https://github.com/KoolTechTricks/FediFAQ/issues
+[запустить сайт локально]: README.md#локальный-запуск
 
 ## Структура репозитория
 
@@ -24,7 +29,7 @@
 
 ## Создание страниц
 
-После того как [сайт запущен локально](README.md#локальный-запуск), вы можете
+После того как [сайт запущен локально][запустить сайт локально], вы можете
 создавать новые страницы через терминал:
 
 ```sh
