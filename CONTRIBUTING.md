@@ -8,7 +8,7 @@
 принять изменения ([Pull Request]).
 
 Не знаете, что можно сделать для этого проекта? Посмотрите [открытые отчёты].
-Посетите [FediTips], переведите какую-нибудь страницу оттуда.
+Посетите [Fedi.Tips], переведите какую-нибудь страницу оттуда.
 
 > [!tip]
 > Рекомендуется [запустить сайт локально] для проверки корректности отображения
@@ -18,6 +18,7 @@
 [сделать форк репозитория]: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo
 [Pull Request]: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork
 [открытые отчёты]: https://github.com/KoolTechTricks/FediFAQ/issues
+[Fedi.Tips]: https://fedi.tips
 [запустить сайт локально]: README.md#локальный-запуск
 
 ## Структура репозитория
