@@ -35,7 +35,7 @@ hugo server -D -O  # -O, чтобы открыть в браузере
 
 ## Лицензия
 
-FediFAQ основан на содержимом [FediTips]. Лицензия: [CC BY-SA 4.0]
+Содержимое FediFAQ основано на [FediTips]. Лицензия: [CC BY-SA 4.0]
 
 Тема [Hugo Book] доступна по лицензии MIT.
 
