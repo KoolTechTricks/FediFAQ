@@ -1,7 +1,35 @@
 <p>
     <!-- NOTE: weight is in ascending order, so previous page is actually next, and vice versa -->
     <div class="pagination">
+
+        {{ $prevPage := "" }}
         {{ with .NextInSection }}
+            {{ $prevPage = . }}
+        {{ else }}
+            {{ if .IsSection }}
+                {{ $pages := .Parent.Pages }}
+                {{ $search := . }}
+                {{ $index := -1 }}
+
+                {{ range $i, $v := $pages }}
+                    {{ if eq $v $search }}
+                        {{ $index = $i }}
+                        {{ break }}
+                    {{ end }}
+                {{ end }}
+
+                {{ if eq $index 0 }}
+                    {{ $prevPage = .Site.Home }}
+                {{ else }}
+                    {{ $section := (index $pages (sub $index 1)).Pages }}
+                    {{ $prevPage = index $section (sub ($section | len) 1) }}
+                {{ end }}
+            {{ else if ne .CurrentSection . }}
+                {{ $prevPage = .CurrentSection }}
+            {{ end }}
+        {{ end }}
+
+        {{ with $prevPage }}
         <a href="{{ .RelPermalink }}" class="paginator">
             <span>
                 <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px">
