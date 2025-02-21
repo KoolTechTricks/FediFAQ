@@ -1,0 +1,22 @@
+.pagination {
+    display: flex;
+}
+
+.paginator {
+    display: inline-block;
+    width: calc(50% - 8px);
+    border: 1px solid;
+    margin: 4px;
+    padding: 12px;
+    flex-grow: 1;
+}
+
+.paginator.right {
+    float: right;
+    text-align: end;
+}
+
+svg {
+    vertical-align: bottom;
+    fill: var(--color-link);
+}

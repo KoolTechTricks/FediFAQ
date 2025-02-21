@@ -1,0 +1,27 @@
+<p>
+    <!-- NOTE: weight is in ascending order, so previous page is actually next, and vice versa -->
+    <div class="pagination">
+        {{ with .NextInSection }}
+        <a href="{{ .RelPermalink }}" class="paginator">
+            <span>
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px">
+                    <path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z"/>
+                </svg>
+                <strong>Назад</strong><br><br>
+            </span>
+            {{ .Title }}
+        </a>
+        {{ end }}
+        {{ with .PrevInSection }}
+        <a href="{{ .RelPermalink }}" class="paginator right">
+            <span>
+                <strong>Далее</strong>
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px">
+                    <path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/>
+                </svg><br><br>
+            </span>
+            {{ .Title }}
+        </a>
+        {{ end }}
+    </div>
+</p>
