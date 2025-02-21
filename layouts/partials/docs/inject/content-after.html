@@ -40,7 +40,30 @@
             {{ .Title }}
         </a>
         {{ end }}
+
+        {{ $nextPage := "" }}
         {{ with .PrevInSection }}
+            {{ $nextPage = . }}
+        {{ else }}
+            {{ if or .IsSection .IsHome }}
+                {{ $nextPage = index .Pages 0 }}
+            {{ else if ne .CurrentSection . }}
+                {{ $pages := .Parent.Parent.Pages }}
+                {{ $search := .CurrentSection }}
+                {{ $index := -1 }}
+
+                {{ range $i, $v := $pages }}
+                    {{ if eq $v $search }}
+                        {{ $index = $i }}
+                        {{ break }}
+                    {{ end }}
+                {{ end }}
+
+                {{ $nextPage = index $pages (add $index 1) }}
+            {{ end }}
+        {{ end }}
+            
+        {{ with $nextPage }}
         <a href="{{ .RelPermalink }}" class="paginator right">
             <span>
                 <strong>Далее</strong>
