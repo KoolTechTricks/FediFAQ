@@ -35,8 +35,12 @@ hugo server -D -O  # -O, чтобы открыть в браузере
 
 ## Лицензия
 
-Содержимое FediFAQ основано на [FediTips]. Лицензия: [CC BY-SA 4.0]
+Содержимое FediFAQ основано на [FediTips]. Лицензия: [CC BY-SA 4.0].
 
-Тема [Hugo Book] доступна по лицензии MIT.
+Сайт построен на теме [Hugo Book]. Лицензия: MIT.
+
+На сайте используются значки [Material Icons] от Google. Лицензия: [Apache v2.0].
 
 [CC BY-SA 4.0]: https://creativecommons.org/licenses/by-sa/4.0
+[Material Icons]: https://fonts.google.com/icons
+[Apache v2.0]: https://www.apache.org/licenses/LICENSE-2.0.html
