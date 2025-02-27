@@ -1,6 +1,7 @@
 ---
 title: Быстрый старт
 weight: 1
+bookCollapseSection: true
 ---
 
 # Быстрый старт

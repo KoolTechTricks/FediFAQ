@@ -9,5 +9,6 @@ enableGitInfo = true
 [params]
 BookTheme = 'auto'
 BookSection = '*'
+BookComments = false
 
 repo = 'https://github.com/KoolTechTricks/FediFAQ'

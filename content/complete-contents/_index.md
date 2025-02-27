@@ -1,6 +1,7 @@
 ---
 title: Знакомство с Mastodon и Fediverse
 weight: 1
+bookCollapseSection: true
 ---
 
 ## Знакомство с Mastodon и Fediverse
