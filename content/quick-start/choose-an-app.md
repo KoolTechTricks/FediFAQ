@@ -1,6 +1,7 @@
 ---
 title: Выбор приложения
 weight: 2
+original: https://fedi.tips/which-apps-can-i-use-should-i-use-the-official-app-or-a-third-party-app
 ---
 
 ## Какие приложения Mastodon можно использовать? Стоит ли выбирать официальное приложение или сторонние?

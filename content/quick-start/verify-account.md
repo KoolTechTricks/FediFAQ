@@ -1,6 +1,7 @@
 ---
 title: Как подтвердить свой аккаунт в Mastodon и Федиверсе?
 weight: 11
+original: https://fedi.tips/how-do-i-verify-my-account
 ---
 
 ## Как подтвердить свой аккаунт в Mastodon и Федиверсе?

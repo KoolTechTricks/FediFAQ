@@ -1,6 +1,7 @@
 ---
 title: Использование веб-приложения
 weight: 4
+original: https://fedi.tips/how-to-install-web-apps-for-mastodon-and-the-fediverse
 ---
 
 ## Что такое веб-приложение?

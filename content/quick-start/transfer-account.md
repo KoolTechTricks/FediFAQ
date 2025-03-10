@@ -1,6 +1,7 @@
 ---
 title: Как перенести аккаунт Mastodon на другой сервер
 weight: 12
+original: https://fedi.tips/transferring-your-mastodon-account-to-another-server
 ---
 
 ## Как перенести аккаунт Mastodon на другой сервер

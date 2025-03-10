@@ -1,6 +1,7 @@
 ---
 title: Использование сайта вашего сервера
 weight: 3
+original: https://fedi.tips/how-do-i-log-in-through-the-website-help-my-password-doesnt-work
 ---
 
 ## Как пользоваться Mastodon через веб-интерфейс? Как войти через сайт моего сервера?

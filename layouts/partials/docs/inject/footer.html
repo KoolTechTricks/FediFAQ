@@ -9,6 +9,9 @@
     FediFAQ является переводом и адаптацией англоязычного ресурса
     <a href="https://fedi.tips" target="_blank">FediTips</a>.
     Лицензия: <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank">CC BY-SA 4.0</a>.
+    {{ with .Page.Params.original }}
+    <br><a href="{{ . }}">Оригинал</a>
+    {{ end }}
 </p>
 <p>
     Вы можете <a href="{{ .Site.Params.repo }}/blob/main/CONTRIBUTING.md" target="_blank">внести свой вклад</a>

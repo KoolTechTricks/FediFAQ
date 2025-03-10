@@ -42,13 +42,24 @@ hugo new content section/page.md
 ```yaml
 title: Page
 weight: 0
+original: https://fedi.tips
 draft: true
 ```
 
-Замените `title` на заголовок страницы (отображается в названии вкладки
-браузера) и `weight` на порядок в левой колонке раздела. Если страница готова к
-публикации, уберите строку `draft`. Ниже после `---` пишите содержимое в формате
-[Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+Это называется Front matter. Поля заполняются по следующим принципам:
+
+|Ключ|Значение|
+|:--:|--------|
+|`title`|Заголовок страницы: отображается в левой колонке и названии вкладки браузера
+|`weight`|Порядок страницы в левой колонке раздела. Чем больше число, тем ниже расположена страница
+|`original`|(Необязательно) Ссылка на оригинальную страницу (если была переведена и адаптирована)
+|`draft`|(Необязательно) Черновик? `true`, если да. Черновики не публикуются на сайте.
+
+Необязательные поля можно убрать.
+
+Ниже этого после `---` пишите содержимое страницы в формате [Markdown].
+
+[Markdown]: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 
 Если вы хотите создать новый раздел, используйте эту команду:
 
@@ -56,8 +67,8 @@ draft: true
 hugo new content section/_index.md
 ```
 
-В заголовке раздела должен содержаться следующий параметр, чтобы сделать секцию
-раскрывающейся в левом меню:
+Во Front matter раздела должен содержаться следующий параметр, чтобы сделать
+секцию раскрывающейся в левом меню:
 
 ```yaml
 bookCollapseSection: true

@@ -1,6 +1,7 @@
 ---
 title: Какой адрес у моего аккаунта? Как подписаться на других людей по адресу? Как люди могут подписаться на меня?
 weight: 10
+original: https://fedi.tips/whats-my-accounts-address-how-do-i-follow-other-peoples-addresses-how-can-people-follow-my-address
 ---
 
 ## Какой адрес у моего аккаунта? Как подписаться на других людей по адресу? Как люди могут подписаться на меня?

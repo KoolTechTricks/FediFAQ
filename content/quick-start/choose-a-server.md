@@ -1,6 +1,7 @@
 ---
 title: Выбор сервера и регистрация
 weight: 1
+original: https://fedi.tips/which-server-should-i-join-how-do-i-find-out-more-about-a-server
 ---
 
 ## Какой сервер Mastodon стоит мне выбрать? Где можно узнать больше о сервере?

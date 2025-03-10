@@ -1,6 +1,7 @@
 ---
 title: На кого подписаться?
 weight: 6
+original: https://fedi.tips/how-do-i-find-accounts-to-follow-on-mastodon-and-the-fediverse-how-do-i-find-my-friends
 ---
 
 ## Как найти интересные аккаунты для подписки в Mastodon и Fediverse?

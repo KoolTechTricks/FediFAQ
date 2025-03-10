@@ -1,6 +1,7 @@
 ---
 title: Как использовать группы в Mastodon и Федиверсе
 weight: 8
+original: https://fedi.tips/how-to-use-groups-on-the-fediverse
 ---
 
 ## Как использовать группы в Mastodon и Федиверсе

@@ -1,6 +1,7 @@
 ---
 title: Заполнение профиля
 weight: 5
+original: https://fedi.tips/how-do-i-customise-my-profile-how-do-i-upload-a-profile-banner-how-do-i-verify-my-account
 ---
 
 ## Как использовать и настраивать страницу профиля в Mastodon

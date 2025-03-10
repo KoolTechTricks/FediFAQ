@@ -1,6 +1,7 @@
 ---
 title: Как сделать так, чтобы мой аккаунт и посты заметили в Mastodon и Федиверсе?
 weight: 9
+original: https://fedi.tips/how-do-i-get-more-followers-on-mastodon-and-the-fediverse
 ---
 
 ## Как сделать так, чтобы мой аккаунт и посты заметили в Mastodon и Федиверсе?

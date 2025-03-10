@@ -1,6 +1,7 @@
 ---
 title: Как подписываться на хэштеги в Mastodon и Федиверсе?
 weight: 7
+original: https://fedi.tips/how-do-i-follow-hashtags-on-mastodon-and-the-fediverse
 ---
 
 ## Как подписываться на хэштеги в Mastodon и Федиверсе?
