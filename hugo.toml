@@ -11,4 +11,7 @@ BookTheme = 'auto'
 BookSection = '*'
 BookComments = false
 
+[markup.goldmark.renderer]
+unsafe = true
+
 repo = 'https://github.com/KoolTechTricks/FediFAQ'
